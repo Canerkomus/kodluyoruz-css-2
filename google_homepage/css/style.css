@@ -1,0 +1,164 @@
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*------- Top Start -------*/
+.top {
+  width: 100%;
+  height: 10vh;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  background-color: transparent;
+}
+
+.top-right{
+display: flex; }
+
+ .top-right>ul>li {
+   float: right;
+   list-style-type: none;
+ }
+
+ .top-right>ul>li>a {
+   margin-right: 20px;
+   text-decoration:none;
+   color:black;
+   padding: 10px;
+ }
+.top-left {
+display: flex;}
+
+.top-left>ul>li{
+  float: left;
+  list-style-type: none;
+}
+
+.top-left>ul>li>a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.top-right .active {
+  background-color: #0275d8 ;
+  color: white;
+}
+
+/*------- Top End -------*/
+
+/*------- Middle Start ------*/
+
+.middle{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.middle img{
+margin-bottom: 30px;
+}
+
+#input_container {
+  position:relative;
+  margin:0 20px;
+  background:#ddd;
+  width: 582px;
+  border-radius:24px;
+  border: 1px solid #dfe1e5;
+  height: 44px;
+  margin: 0 auto;
+  border: none;
+}
+
+#input:focus{
+  outline: none;
+}
+#input {
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 24px;
+  height:44px;
+  padding-right: 30px;
+  width: 100%;
+  background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-512.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: left;  
+  text-indent: 30px;       
+  font-size: 15px;
+  text-shadow: none;
+}
+#input_img {
+  position:absolute;
+  bottom: -22px;
+  right: 15px;
+  width: 24px;
+  height:24px;
+
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button{
+  font-family: Arial,sans-serif;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 36px;
+  margin: 11px 4px;
+  text-decoration: none solid rgb(34, 34, 34);
+  color: #5f6368;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px; 
+  text-align: center;
+  cursor: pointer; 
+  user-select: none;
+}
+/*------- Middle End ------*/
+
+/*------- Footer Start -------*/
+
+footer{
+  width: 100%;
+  height: 7vh;
+  background-color: #f2f2f2 ;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left>ul>li{
+  display: inline;
+
+}
+
+.footer-left>ul>li>a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: #474647;
+}
+
+.footer-right>ul>li{
+  display:inline
+}
+.footer-right>ul>li>a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: #474647;
+}
+
+/*------- Footer End -------*/
